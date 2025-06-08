@@ -53,3 +53,10 @@ grid-template-rows: repeat(3, 160px);
 }
 }
 
+/*For mobile view*/ 
+@media (max-device-width: 570px) {
+    body{
+        width: 80%;
+        
+    }
+}
