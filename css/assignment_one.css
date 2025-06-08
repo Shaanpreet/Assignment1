@@ -4,3 +4,29 @@ Only this will be graded.
 */
 
 
+body{
+    width: 100%;
+}
+/*Title and navigation bar that is the header*/ 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0; /*No horizontal padding*/ 
+}
+/*Containers*/ 
+#container{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 50px; /*We need space below the main body*/ 
+}
+#leftContainer, #rightContainer{
+    flex:1;
+}
+/*Grid layouts for right container*/ 
+#rightContainer{
+    display: grid;
+    grid-template-rows: repeat(3, 160px);
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+}
