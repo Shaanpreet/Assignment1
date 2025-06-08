@@ -30,3 +30,26 @@ header{
     grid-template-columns: 2fr 1fr 1fr;
     gap: 20px;
 }
+
+
+/*For Tablet view*/ 
+@media(max-device-width:100px)
+{
+    body{
+        width: 60%;
+    }
+
+#container{
+    flex-direction: column;
+    gap:40px;
+}
+
+#rightContainer {
+grid-template-columns: 1fr,1fr;
+grid-template-rows: repeat(3, 160px);
+} 
+.display_md{
+    display: none;
+}
+}
+
