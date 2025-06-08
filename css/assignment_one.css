@@ -32,7 +32,7 @@ header{
 }
 
 
-/*For Tablet view*/ 
+/*For Tablet view 
 @media(max-device-width:100px)
 {
     body{
@@ -53,10 +53,10 @@ grid-template-rows: repeat(3, 160px);
 }
 }
 
-/*For mobile view*/ 
+/*For mobile view
 @media (max-device-width: 570px) {
     body{
         width: 80%;
         
     }
-}
+}*/ 
