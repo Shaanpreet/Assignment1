@@ -47,13 +47,13 @@ header{
 
 
 /*For Tablet view*/ 
-@media(max-device-width:100px)
+@media(max-device-width:1000px)
 {
     body{
         width: 60%;
     }
 
-#container{
+#mainBody{
     flex-direction: column;
     gap:40px;
 }
