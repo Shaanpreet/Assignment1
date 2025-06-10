@@ -22,11 +22,10 @@ header{
     margin-bottom: 50px;
     
 }
-
- 
-
-#leftContainer, #rightContainer{
+#leftContainer{
     flex:1;
+    
+    
 }
 /*Grid layouts for right container*/ 
 #rightContainer{
@@ -35,6 +34,16 @@ header{
     grid-template-columns: 2fr 1fr 1fr;
     gap: 20px;
 }
+.gridImage.zero {
+    grid-row: span 3;
+}
+.gridImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 
 
 /*For Tablet view*/ 
